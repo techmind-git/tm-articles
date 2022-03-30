@@ -1,0 +1,28 @@
+{
+  "name": "mdx",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "compile": "node ./compile-mdx.mjs --root ../.. --json --file posts/post1",
+    "compile2": "node ./compile-mdx.mjs --root ../.. --json --file posts/post2"
+  },
+  "keywords": [],
+  "author": "Michael J. Carter <kiliman@gmail.com> (https://kiliman.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "dotenv": "^14.2.0",
+    "esbuild": "^0.14.13",
+    "esbuild-runner": "^2.2.1",
+    "mdx-bundler": "^8.0.1",
+    "node-fetch": "^3.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rehype": "^12.0.0",
+    "remark-mdx-code-meta": "^1.0.0",
+    "remark-prism": "^1.3.6",
+    "typescript": "^4.5.5",
+    "typescript-run": "^0.1.0"
+  }
+}
